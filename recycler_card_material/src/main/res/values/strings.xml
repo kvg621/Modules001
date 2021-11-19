@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RecyclerCard Material</string>
+    <string name="hello">Hello!!!</string>
+    <string name="banner_image">Banner_image</string>
+</resources>
