@@ -9,6 +9,8 @@
         <entry key="app/src/main/res/menu/menu.xml" value="0.19010416666666666" />
         <entry key="module002/src/main/res/layout/activity_main002.xml" value="0.1921875" />
         <entry key="module002/src/main/res/layout/fragment_blank.xml" value="0.25" />
+        <entry key="recycler_card_material/src/main/res/layout/banner_card_list_item.xml" value="0.19010416666666666" />
+        <entry key="recycler_card_material/src/main/res/layout/fragment_recycler.xml" value="0.19010416666666666" />
       </map>
     </option>
   </component>

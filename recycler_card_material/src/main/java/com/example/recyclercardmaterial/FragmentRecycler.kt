@@ -27,10 +27,10 @@ class FragmentRecycler : Fragment() {
 
         val userRecyclerView: RecyclerView = vIewFragment.findViewById(R.id.user_recycler_view)
         userRecyclerView.layoutManager =
-            LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
+            LinearLayoutManager(vIewFragment.context, LinearLayoutManager.VERTICAL, false)
         userRecyclerView.addItemDecoration(
             DividerItemDecoration(
-                this,
+                vIewFragment.context,
                 DividerItemDecoration.VERTICAL
             )
         )
