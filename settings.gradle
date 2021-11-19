@@ -9,3 +9,4 @@ dependencyResolutionManagement {
 rootProject.name = "Modules001"
 include ':app'
 include ':module002'
+include ':recycler_card_material'
