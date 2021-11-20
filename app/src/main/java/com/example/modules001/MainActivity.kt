@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val aFragment = mainFragment()
+        val aFragment = mainFragment()//Set Fragment as default
         supportFragmentManager
             .beginTransaction()
             .replace(R.id.fregment001, aFragment)
@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity() {
                 R.id.to_yandex -> {
                     val uris = Uri.parse("http://yandex.ru")
                     val intent= Intent(Intent.ACTION_VIEW,uris)
-                    startActivity(intent)
+                    startActivity(intent) //Open yandex.ru in default browser
 
                 }
             }
