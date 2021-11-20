@@ -3,9 +3,14 @@
     <item
         android:id="@+id/to_002"
         android:icon="@mipmap/ic_launcher"
-        android:title="Перейти"></item>
+        android:title="@string/go_to"></item>
     <item
         android:id="@+id/to_home"
+        android:enabled="true"
         android:icon="@drawable/ic_baseline_home_24"
-        android:title="Назад"></item>
+        android:title="@string/to_home"></item>
+    <item
+        android:id="@+id/to_list"
+        android:icon="@drawable/ic_baseline_view_list_24"
+        android:title="Лист" />
 </menu>

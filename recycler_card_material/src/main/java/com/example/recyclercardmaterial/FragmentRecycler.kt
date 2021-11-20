@@ -21,7 +21,10 @@ class FragmentRecycler : Fragment() {
         val bannerList: List<Banner> = listOf(
             Banner(R.drawable.banner_image, "Hello"),
             Banner(R.drawable.banner_image, "Hello001"),
-            Banner(R.drawable.banner_image, "Hello002")
+            Banner(R.drawable.banner_image, "Hello002"),
+            Banner(R.drawable.banner_image, "Hello003"),
+            Banner(R.drawable.banner_image, "Hello004"),
+            Banner(R.drawable.banner_image, "Hello005")
         )
 
 
