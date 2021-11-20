@@ -1,5 +1,7 @@
 package com.example.modules001
 
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.module002.BlankFragment
@@ -13,10 +15,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val mFragment = mainFragment()
+        val aFragment = mainFragment()
         supportFragmentManager
             .beginTransaction()
-            .replace(R.id.fregment001, mFragment)
+            .replace(R.id.fregment001, aFragment)
             .commit()
 
         val menuBottomBar = findViewById<BottomNavigationView>(R.id.nav_bar_bottom)
@@ -43,7 +45,12 @@ class MainActivity : AppCompatActivity() {
                         .replace(R.id.fregment001, mFragment)
                         .commit()
                 }
+                R.id.to_yandex -> {
+                    val uris = Uri.parse("http://yandex.ru")
+                    val intent= Intent(Intent.ACTION_VIEW,uris)
+                    startActivity(intent)
 
+                }
             }
             true
         }

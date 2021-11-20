@@ -13,4 +13,8 @@
         android:id="@+id/to_list"
         android:icon="@drawable/ic_baseline_view_list_24"
         android:title="Лист" />
+    <item
+        android:id="@+id/to_yandex"
+        android:icon="@drawable/ic_baseline_open_in_browser_24"
+        android:title="yandex.ru" />
 </menu>
